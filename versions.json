@@ -1,0 +1,10 @@
+{
+  "homepage": "https://cctvcraft.github.io/index.html",
+  "1.18.2": {
+    "1.0.0": "Added Portal Gate block\nAdded Rune Stone\nAdded Rune Stone modes\nAdded Portal Gate delay time\nAdded settings to enable or disable monsters using the portal\nAdded settings to enable or disable creatures using the portal\nAdded support for custom worlds\nAdded unique textures for each block\nAdded Portal Gate Slab block\nAdded Portal Gate Slab Crystal block\nAdded Portal Gate Stair block\mAdded support for connected portal gate blocks to be removed when the portal is broken\nAdded support to change the delay time for the portal gate" 
+  },
+  "promos": {
+    "1.18.2-latest": "1.0.0",
+    "1.18.2-recommended": "1.0.0"
+  }
+}
