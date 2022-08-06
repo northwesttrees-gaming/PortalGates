@@ -1,5 +1,5 @@
 # Portal Gates
-Adds a new way to teleport between worlds!
+A Minecraft mod that adds a new way to teleport between worlds!
 
 # Copyrights
 - All Rights Reserved
