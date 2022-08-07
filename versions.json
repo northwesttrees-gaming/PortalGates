@@ -1,10 +1,11 @@
 {
-  "homepage": "https://cctvcraft.github.io/index.html",
+  "homepage": "https://github.com/northwesttrees-gaming/PortalGates",
   "1.18.2": {
-    "1.0.0": "Added Portal Gate block\nAdded Rune Stone\nAdded Rune Stone modes\nAdded Portal Gate delay time\nAdded settings to enable or disable monsters using the portal\nAdded settings to enable or disable creatures using the portal\nAdded support for custom worlds\nAdded unique textures for each block\nAdded Portal Gate Slab block\nAdded Portal Gate Slab Crystal block\nAdded Portal Gate Stair block\nAdded support for connected portal gate blocks to be removed when the portal is broken\nAdded support to change the delay time for the portal gate" 
+    "1.0.0": "Added Portal Gate block\nAdded Rune Stone\nAdded Rune Stone modes\nAdded Portal Gate delay time\nAdded settings to enable or disable monsters using the portal\nAdded settings to enable or disable creatures using the portal\nAdded support for custom worlds\nAdded unique textures for each block\nAdded Portal Gate Slab block\nAdded Portal Gate Slab Crystal block\nAdded Portal Gate Stair block\nAdded support for connected portal gate blocks to be removed when the portal is broken\nAdded support to change the delay time for the portal gate",
+    "1.0.1": "Changed the default delay time for portal gates to 100 ticks (5 seconds)\nChanged Portal Gate Steps, Portal Gate Slabs, and Portal Gate Slab Crystals to be breakable\nChanged Portal Gate Steps, Portal Gate Slabs, Portal Gate Slab Crystals now have a hardness of 5\nChanged Portal Gate Steps, Portal Gate Slabs, Portal Gate Slab Crystals now have pickaxes as the tool to mine\nChanged Portal Gate Slab Crystals to have glass-breaking sounds\nFixed issue where Portal Gate Steps, Portal Gate Slabs, and Portal Gate Slab Crystals could trap players\nFixed issue where Portal Gate Steps, Portal Gate Slabs, and Portal Gate Slab Crystals could not be placed in Creative mode\nFixed issue with Rune Stone item not properly setting default values when pulled from the creative inventory or summoned\nThe Portal Gate block will now check if Portal Gate Steps, Portal Gate Slabs, or Portal Gate Slab Crystals exists and then remove them when broken\nPortal Gate blocks can now only be placed if the 8 blocks around it support breaking using the tag "portal_gates:replaceable_blocks"\nPortal Gate Steps, Portal Gate Slabs, and Portal Gate Slab Crystals are all now grouped under the tag "portal_gates:portal_gate_blocks"\nThe tag "portal_gates:replaceable_blocks" supports the following blocks: (Air, Water, Lava, Snow Layers, Fire, Saplings, Flowers, Double Flowers, Grasses, Double Grasses, Shrubs, Mushrooms, Fungus, Sweet Berries, Vine, Cave Vines, Nether Vines, Lily Pads, Kelp, Sea Grass, Structure Voids, Coral, Dead Coral, Roots, Nether Roots, Spores, Nether Sprouts)"
   },
   "promos": {
-    "1.18.2-latest": "1.0.0",
-    "1.18.2-recommended": "1.0.0"
+    "1.18.2-latest": "1.0.1",
+    "1.18.2-recommended": "1.0.1"
   }
 }
