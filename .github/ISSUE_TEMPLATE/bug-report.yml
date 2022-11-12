@@ -22,7 +22,7 @@ body:
      required: true
  - type: textarea
    attributes:
-    label: Minecraft and Mod Builds
+    label: Minecraft and nod builds
     description: Provide information about the modification and minecraft builds.
     placeholder: |
       Minecraft version: [1.19.2]
@@ -31,7 +31,7 @@ body:
      required: true
  - type: textarea
    attributes:
-    label: Installed Modifications
+    label: Installed modifications
     description: In some cases it can be modification conflict, please list the mods you use.
     placeholder: |
       1. Mod Name
@@ -42,7 +42,7 @@ body:
      required: true
  - type: textarea
    attributes:
-    label: Crash Reports
+    label: Crash reports
     description: If applicable, include the games crash report.
     placeholder: Drag and drop the file to this box.
    validations:
