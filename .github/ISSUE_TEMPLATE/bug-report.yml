@@ -1,0 +1,49 @@
+name: Bug Report
+description: Report an issue with the modification.
+labels: Bug
+body:
+ - type: textarea
+   attributes:
+    label: Issue description
+    description: Explain clearly what the issue is about and all valuable details you have noticed for the issue. More information the better.
+    placeholder: Type your message here.
+   validations:
+    required: true
+ - type: textarea
+   attributes:
+    label: Steps to reproduce this issue.
+    description: Please provide steps to reproduce the issue to help us troubleshoot it.
+    placeholder: |
+      1. Step Description
+      2. Step Description
+      3. Step Description
+      ...
+   validations:
+     required: true
+ - type: textarea
+   attributes:
+    label: Minecraft and Mod Builds
+    description: Provide information about the modification and minecraft builds.
+    placeholder: |
+      Minecraft version: [1.19.2]
+      Modification Version: [1.5.0]
+   validations:
+     required: true
+ - type: textarea
+   attributes:
+    label: Installed Modifications
+    description: In some cases it can be modification conflict, please list the mods you use.
+    placeholder: |
+      1. Mod Name
+      2. Mod Name
+      3. Mod Name
+      ...
+   validations:
+     required: true
+ - type: textarea
+   attributes:
+    label: Crash Reports
+    description: If applicable, include the games crash report.
+    placeholder: Drag and drop the file to this box.
+   validations:
+    required: false
