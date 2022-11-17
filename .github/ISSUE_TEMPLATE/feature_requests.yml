@@ -1,6 +1,7 @@
 name: Feature Request
 description: Share an idea for the modification.
-labels: Feature
+labels: "Feature"
+assignees: "northwesttreesgaming"
 body:
  - type: textarea
    attributes:
