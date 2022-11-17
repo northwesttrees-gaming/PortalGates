@@ -3,7 +3,9 @@
   "1.19.2": {
     "1.4.0": "Ported Portal Gates to Minecraft 1.19.2",
     "1.5.0": "Added Panic Button Recipe\n\nAdded Forge Gate Recipe\n\nChanged math for forge gate resource cost\n\nFixed Panic Button not working",
-    "1.6.0": "Added Anchor Essence\n\nAdded Advancements for Panic Button, Forge Gate, Item Teleporter, Obsidian Anchor, and Anchor Essence.\n\nAdded Item Teleporter\n\nAdded Obsidian Anchor\n\nAdded item tags for new items used in the latest recipes.\n\nAdded tags for cross-mod support for the past two updates.\n\nAdded recipes for Item Teleporter, Obsidian Anchor, and Anchor Essence.\n\nAdded support for Item Teleports to the Rune Stone."
+    "1.6.0": "Added Anchor Essence\n\nAdded Advancements for Panic Button, Forge Gate, Item Teleporter, Obsidian Anchor, and Anchor Essence.\n\nAdded Item Teleporter\n\nAdded Obsidian Anchor\n\nAdded item tags for new items used in the latest recipes.\n\nAdded tags for cross-mod support for the past two updates.\n\nAdded recipes for Item Teleporter, Obsidian Anchor, and Anchor Essence.\n\nAdded support for Item Teleports to the Rune Stone.",
+    "1.6.1": "Fixed a chunk-loading-related issue",
+    "1.6.2": "Fixed an issue where Obsidian Anchors dropped when any block was broken."
   },
   "1.18.2": {
     "1.0.0": "Added Portal Gate block\n\nAdded Rune Stone\n\nAdded Rune Stone modes\n\nAdded Portal Gate delay time\n\nAdded settings to enable or disable monsters using the portal\n\nAdded settings to enable or disable creatures using the portal\n\nAdded support for custom dimensions\n\nAdded unique textures for each block\n\nAdded Portal Gate Slab block\n\nAdded Portal Gate Slab Crystal block\n\nAdded Portal Gate Stair block\n\nAdded support for connected portal gate blocks to be removed when the portal is broken\n\nAdded support to change the delay time for the portal gate",
@@ -13,8 +15,8 @@
     "1.3.0": "Added cross-mod support tags for Portal Gate blocks\n\nAdded cross-mod support tags for Portal Gate Crystal blocks\n\nAdded cross-mod support tags for Portal Gate Slab blocks\n\nAdded cross-mod support tags for Portal Gate Steps blocks\n\nAdded cross-mod support tags for Rune Stone items\n\nAdded cross-mod support for some forge tags\n\nAdded cross-mod support throughout all the procedures\n\nAdded some custom forge tags\n\nChanged tag portal_gates:portal_gate_blocks to portal_gates:mechanics/portal_gate/removeable_blocks\n\nChanged tag portal_gates:replaceable_blocks to portal_gates:mechanics/replaceable_blocks\n\nChanged tags for recipes\n\nFixed a condition testing for any block rather than the portal gate default block\n\nRemoved the unused diamond block recipe tag\n\nRemoved unused tags"
   },
   "promos": {
-    "1.19.2-latest": "1.6.0",
-    "1.19.2-recommended": "1.6.0",
+    "1.19.2-latest": "1.6.2",
+    "1.19.2-recommended": "1.6.2",
     "1.18.2-latest": "1.3.0",
     "1.18.2-recommended": "1.3.0"
   }
